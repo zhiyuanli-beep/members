@@ -1,0 +1,13 @@
+project:
+  type: website
+website:
+  title: "李致远的个人Quarto主页"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: about.qmd
+        text: 关于我
+format:
+  html:
+    standalone: true  # 独立模式，无需编译主题，课件推荐的稳行配置
